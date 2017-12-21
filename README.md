@@ -1,8 +1,8 @@
-# android-ueueo-log
+# android-ayau-log
 
-android-ueueo-log是Android日志输出工具，对输出的日志信息进行了美化，可以输出Json字符串，Xml字符串和简单的Java对象，并对输出信息进行了格式化。
+android-ayau-log 是Android日志输出工具，对输出的日志信息进行了美化，可以输出Json字符串，Xml字符串和简单的Java对象，并对输出信息进行了格式化。
 
-感谢[Logger](https://github.com/orhanobut/logger)，因为是基于[Logger](https://github.com/orhanobut/logger)然后根据自己的需求做的一些修改。
+感谢[Logger](https://github.com/orhanobut/logger),android-ueueo-log，因为是基于[Logger](https://github.com/orhanobut/logger)然后根据自己的需求做的一些修改。
 
 特性
 --------
@@ -21,7 +21,7 @@ android-ueueo-log是Android日志输出工具，对输出的日志信息进行�
 --------
 可以从Github上下载源码：[android-ueueo-log](https://github.com/lijinzhe/android-ueueo-log#android-ueueo-log)
 
-简书地址：http://www.jianshu.com/p/5719e25d970b
+
 
 项目中使用Gradle导入：
 
@@ -217,11 +217,9 @@ UELog.object(obj);
 *   其中json，xml和object的输出都是以debug等级输出的；
 *   `append`方法的调用必须是在同一线程内才有效，所以最好保证你的`append`方法的调用都是在同一个方法里，而且调用日志输出方法输出日志之后，`append`拼接的日志将被清空，再次打印的日志将没有之前的拼接信息；
 
-### 作者 UEUEO
+### 作者 niexuan 
 
-简书主页：http://www.jianshu.com/u/7adf23444c8d
 
-有什么问题或者建议欢迎在简书上给我留言，谢谢～
 
 
 
