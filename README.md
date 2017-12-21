@@ -1,7 +1,6 @@
 # ayau-logger 阿呀哟 logger
 
 ayau-logger 是Android日志输出工具，可以格式化输出Json字符串，Xml字符串和简单的Java对象；可输出超长信息，并对输出的日志信息进行了美化；
-
    可自定义全局标记，控制Log打印开关，显示方法调用堆栈；既可打印信息到Logcat,也能输出到文件。
 
 感谢[Logger](https://github.com/orhanobut/logger),[android-ueueo-log](https://github.com/lijinzhe/android-ueueo-log) ，因为是基于Logger和 android-ueueo-log,然后根据自己的需求做的一些修改。
@@ -21,7 +20,7 @@ ayau-logger 是Android日志输出工具，可以格式化输出Json字符串，
 *   可打印的对象类型，进行了扩展；
 
 
-![](https://github.com/nx1988/ayauLogger/static/image1.png)
+![](https://raw.githubusercontent.com/lijinzhe/android-ueueo-log/master/static/image1.png)
 
 
 下载和导入
