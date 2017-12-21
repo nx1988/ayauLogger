@@ -29,5 +29,5 @@ dependencies {
     //compile 'com.github.ashima0512:OrangeRetrofitDemo:v1.0.0'
    // compile 'com.github.niexuan:NXLogger:1.1.0'
    // implementation files('libs/nxlogger.jar')
-   // compile 'com.github.nx1988:nxlib:1.1.2'
+    compile 'com.github.nx1988:ayauLogger:1.0.0'
 }
